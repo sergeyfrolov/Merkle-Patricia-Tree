@@ -9,7 +9,7 @@ from encoding import *
 
 # This Patricia Tree implementation does not use RLP-encoding, as I was interesting in logic
 # pickle.dumps and pickle.loads could be swapped for rlp easily
-class PatriciaTree:
+class MerklePatriciaTree:
 	debug = False
 
 	def __init__(self, from_scratch=None, debug=None):
